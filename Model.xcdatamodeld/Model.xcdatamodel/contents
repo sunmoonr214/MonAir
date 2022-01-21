@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E2269" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AQI" representedClassName="AQI" syncable="YES" codeGenerationType="class">
+        <attribute name="concentration10" optional="YES"/>
+        <attribute name="concentration25" optional="YES"/>
+        <attribute name="pm" optional="YES"/>
+        <attribute name="pm2.5" optional="YES"/>
+    </entity>
+    <elements>
+        <element name="AQI" positionX="-63" positionY="-18" width="128" height="103"/>
+    </elements>
+</model>

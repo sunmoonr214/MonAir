@@ -3,27 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3559926F90C2B7B9250C7113 /* Pods_Air_Pollution.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21CFB94D29A335DE127E39D /* Pods_Air_Pollution.framework */; };
+		60022C2524D482A300D666ED /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60022C2424D482A300D666ED /* Progress.swift */; };
+		6006A43424BEA60F00C787E5 /* searchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6006A43324BEA60F00C787E5 /* searchController.swift */; };
+		601B4C7024C8913100351220 /* mapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601B4C6F24C8913100351220 /* mapController.swift */; };
+		602B11D724BCB22A005C5EE9 /* Progressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B11D624BCB22A005C5EE9 /* Progressbar.swift */; };
+		603AA3AA24CF274F0015D1DB /* AQI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603AA3A924CF274F0015D1DB /* AQI.swift */; };
+		604E0A0F24B747820074C620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604E0A0E24B747820074C620 /* Main.storyboard */; };
 		609BA7F224B4B4E3008A5059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609BA7F124B4B4E3008A5059 /* AppDelegate.swift */; };
 		609BA7F424B4B4E3008A5059 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609BA7F324B4B4E3008A5059 /* SceneDelegate.swift */; };
 		609BA7F624B4B4E3008A5059 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609BA7F524B4B4E3008A5059 /* ViewController.swift */; };
-		609BA7F924B4B4E3008A5059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609BA7F724B4B4E3008A5059 /* Main.storyboard */; };
 		609BA7FB24B4B4EA008A5059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609BA7FA24B4B4EA008A5059 /* Assets.xcassets */; };
 		609BA7FE24B4B4EA008A5059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609BA7FC24B4B4EA008A5059 /* LaunchScreen.storyboard */; };
+		609BA80824B4B827008A5059 /* AirData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609BA80524B4B827008A5059 /* AirData.swift */; };
+		609BA80924B4B827008A5059 /* AirDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609BA80624B4B827008A5059 /* AirDataModel.swift */; };
+		609BA80A24B4B827008A5059 /* PManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609BA80724B4B827008A5059 /* PManager.swift */; };
+		609BA80C24B4B852008A5059 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609BA80B24B4B852008A5059 /* Constants.swift */; };
+		60E5508225432F3E001ECDE8 /* mainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E5508125432F3E001ECDE8 /* mainController.swift */; };
+		60E550852543313B001ECDE8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E550832543313B001ECDE8 /* TableViewCell.swift */; };
+		60E550862543313B001ECDE8 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60E550842543313B001ECDE8 /* TableViewCell.xib */; };
+		60FC7B6624B59EB900498CA2 /* gradientfunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FC7B6524B59EB900498CA2 /* gradientfunc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		609BA7EE24B4B4E3008A5059 /* Air Pollution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Air Pollution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B78F7DDDCE3C1D84131F39 /* Pods-Air Pollution.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Air Pollution.debug.xcconfig"; path = "Target Support Files/Pods-Air Pollution/Pods-Air Pollution.debug.xcconfig"; sourceTree = "<group>"; };
+		60022C2424D482A300D666ED /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		6006A43324BEA60F00C787E5 /* searchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchController.swift; sourceTree = "<group>"; };
+		601B4C6F24C8913100351220 /* mapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapController.swift; sourceTree = "<group>"; };
+		602B11D124BCAAA2005C5EE9 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		602B11D224BCAAAB005C5EE9 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		602B11D324BCAAB1005C5EE9 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		602B11D424BCAAB9005C5EE9 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		602B11D524BCAAC8005C5EE9 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		602B11D624BCB22A005C5EE9 /* Progressbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progressbar.swift; sourceTree = "<group>"; };
+		6039D95825406A3B007ADBEF /* MonAir.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MonAir.entitlements; sourceTree = "<group>"; };
+		603AA3A924CF274F0015D1DB /* AQI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQI.swift; sourceTree = "<group>"; };
+		604E0A0E24B747820074C620 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		609BA7EE24B4B4E3008A5059 /* MonAir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonAir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		609BA7F124B4B4E3008A5059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		609BA7F324B4B4E3008A5059 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		609BA7F524B4B4E3008A5059 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		609BA7F824B4B4E3008A5059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		609BA7FA24B4B4EA008A5059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		609BA7FD24B4B4EA008A5059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		609BA7FF24B4B4EA008A5059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		609BA80524B4B827008A5059 /* AirData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirData.swift; sourceTree = "<group>"; };
+		609BA80624B4B827008A5059 /* AirDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirDataModel.swift; sourceTree = "<group>"; };
+		609BA80724B4B827008A5059 /* PManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PManager.swift; sourceTree = "<group>"; };
+		609BA80B24B4B852008A5059 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		60E5508125432F3E001ECDE8 /* mainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainController.swift; sourceTree = "<group>"; };
+		60E550832543313B001ECDE8 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		60E550842543313B001ECDE8 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		60FC7B6524B59EB900498CA2 /* gradientfunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradientfunc.swift; sourceTree = "<group>"; };
+		D21CFB94D29A335DE127E39D /* Pods_Air_Pollution.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Air_Pollution.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73F74CA7F1C8306A5824E96 /* Pods-Air Pollution.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Air Pollution.release.xcconfig"; path = "Target Support Files/Pods-Air Pollution/Pods-Air Pollution.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +67,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3559926F90C2B7B9250C7113 /* Pods_Air_Pollution.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		602B11D024BCAA8A005C5EE9 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				602B11D524BCAAC8005C5EE9 /* Montserrat-SemiBold.ttf */,
+				602B11D424BCAAB9005C5EE9 /* Montserrat-Light.ttf */,
+				602B11D324BCAAB1005C5EE9 /* Roboto-Bold.ttf */,
+				602B11D224BCAAAB005C5EE9 /* Roboto-Regular.ttf */,
+				602B11D124BCAAA2005C5EE9 /* Roboto-Medium.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		609BA7E524B4B4E3008A5059 = {
 			isa = PBXGroup;
 			children = (
 				609BA7F024B4B4E3008A5059 /* Air Pollution */,
 				609BA7EF24B4B4E3008A5059 /* Products */,
+				763ABDBB2C532FB9CFF060C9 /* Pods */,
+				C830CDAA2E6572644B92766D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		609BA7EF24B4B4E3008A5059 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				609BA7EE24B4B4E3008A5059 /* Air Pollution.app */,
+				609BA7EE24B4B4E3008A5059 /* MonAir.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +107,55 @@
 		609BA7F024B4B4E3008A5059 /* Air Pollution */ = {
 			isa = PBXGroup;
 			children = (
+				6039D95825406A3B007ADBEF /* MonAir.entitlements */,
 				609BA7F124B4B4E3008A5059 /* AppDelegate.swift */,
+				60E5508025432F06001ECDE8 /* Controller */,
 				609BA7F324B4B4E3008A5059 /* SceneDelegate.swift */,
-				609BA7F524B4B4E3008A5059 /* ViewController.swift */,
-				609BA7F724B4B4E3008A5059 /* Main.storyboard */,
+				60FC7B6524B59EB900498CA2 /* gradientfunc.swift */,
+				604E0A0E24B747820074C620 /* Main.storyboard */,
+				609BA80524B4B827008A5059 /* AirData.swift */,
+				602B11D624BCB22A005C5EE9 /* Progressbar.swift */,
+				60022C2424D482A300D666ED /* Progress.swift */,
+				603AA3A924CF274F0015D1DB /* AQI.swift */,
+				609BA80624B4B827008A5059 /* AirDataModel.swift */,
+				609BA80B24B4B852008A5059 /* Constants.swift */,
+				609BA80724B4B827008A5059 /* PManager.swift */,
 				609BA7FA24B4B4EA008A5059 /* Assets.xcassets */,
 				609BA7FC24B4B4EA008A5059 /* LaunchScreen.storyboard */,
 				609BA7FF24B4B4EA008A5059 /* Info.plist */,
+				602B11D024BCAA8A005C5EE9 /* Font */,
 			);
 			path = "Air Pollution";
+			sourceTree = "<group>";
+		};
+		60E5508025432F06001ECDE8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6006A43324BEA60F00C787E5 /* searchController.swift */,
+				601B4C6F24C8913100351220 /* mapController.swift */,
+				609BA7F524B4B4E3008A5059 /* ViewController.swift */,
+				60E5508125432F3E001ECDE8 /* mainController.swift */,
+				60E550832543313B001ECDE8 /* TableViewCell.swift */,
+				60E550842543313B001ECDE8 /* TableViewCell.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		763ABDBB2C532FB9CFF060C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23B78F7DDDCE3C1D84131F39 /* Pods-Air Pollution.debug.xcconfig */,
+				D73F74CA7F1C8306A5824E96 /* Pods-Air Pollution.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C830CDAA2E6572644B92766D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D21CFB94D29A335DE127E39D /* Pods_Air_Pollution.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 609BA80224B4B4EA008A5059 /* Build configuration list for PBXNativeTarget "Air Pollution" */;
 			buildPhases = (
+				4AC1ACC611F43997680B3BD2 /* [CP] Check Pods Manifest.lock */,
 				609BA7EA24B4B4E3008A5059 /* Sources */,
 				609BA7EB24B4B4E3008A5059 /* Frameworks */,
 				609BA7EC24B4B4E3008A5059 /* Resources */,
+				EB92FEC1E5225D4518FAC030 /* [CP] Embed Pods Frameworks */,
+				FA3EC2B0F41BD7178F0E3C2A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -84,7 +178,7 @@
 			);
 			name = "Air Pollution";
 			productName = "Air Pollution";
-			productReference = 609BA7EE24B4B4E3008A5059 /* Air Pollution.app */;
+			productReference = 609BA7EE24B4B4E3008A5059 /* MonAir.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,36 +219,100 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				604E0A0F24B747820074C620 /* Main.storyboard in Resources */,
+				60E550862543313B001ECDE8 /* TableViewCell.xib in Resources */,
 				609BA7FE24B4B4EA008A5059 /* LaunchScreen.storyboard in Resources */,
 				609BA7FB24B4B4EA008A5059 /* Assets.xcassets in Resources */,
-				609BA7F924B4B4E3008A5059 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AC1ACC611F43997680B3BD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Air Pollution-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB92FEC1E5225D4518FAC030 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Air Pollution/Pods-Air Pollution-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Air Pollution/Pods-Air Pollution-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Air Pollution/Pods-Air Pollution-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA3EC2B0F41BD7178F0E3C2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Air Pollution/Pods-Air Pollution-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Air Pollution/Pods-Air Pollution-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Air Pollution/Pods-Air Pollution-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		609BA7EA24B4B4E3008A5059 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60E550852543313B001ECDE8 /* TableViewCell.swift in Sources */,
+				609BA80A24B4B827008A5059 /* PManager.swift in Sources */,
+				609BA80924B4B827008A5059 /* AirDataModel.swift in Sources */,
+				60E5508225432F3E001ECDE8 /* mainController.swift in Sources */,
 				609BA7F624B4B4E3008A5059 /* ViewController.swift in Sources */,
+				603AA3AA24CF274F0015D1DB /* AQI.swift in Sources */,
 				609BA7F224B4B4E3008A5059 /* AppDelegate.swift in Sources */,
+				601B4C7024C8913100351220 /* mapController.swift in Sources */,
+				609BA80C24B4B852008A5059 /* Constants.swift in Sources */,
+				609BA80824B4B827008A5059 /* AirData.swift in Sources */,
+				60022C2524D482A300D666ED /* Progress.swift in Sources */,
 				609BA7F424B4B4E3008A5059 /* SceneDelegate.swift in Sources */,
+				602B11D724BCB22A005C5EE9 /* Progressbar.swift in Sources */,
+				6006A43424BEA60F00C787E5 /* searchController.swift in Sources */,
+				60FC7B6624B59EB900498CA2 /* gradientfunc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		609BA7F724B4B4E3008A5059 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				609BA7F824B4B4E3008A5059 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		609BA7FC24B4B4EA008A5059 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,37 +440,59 @@
 		};
 		609BA80324B4B4EA008A5059 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23B78F7DDDCE3C1D84131F39 /* Pods-Air Pollution.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Air Pollution/MonAir.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TEH366VWV7;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = XLFCG9B83J;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers\"/**",
+					"$(SRCROOT)/Pods",
+				);
 				INFOPLIST_FILE = "Air Pollution/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RayWan.Air-Pollution";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.03;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rwan.MonAir;
+				PRODUCT_NAME = MonAir;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		609BA80424B4B4EA008A5059 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D73F74CA7F1C8306A5824E96 /* Pods-Air Pollution.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Air Pollution/MonAir.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TEH366VWV7;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = XLFCG9B83J;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers\"/**",
+					"$(SRCROOT)/Pods",
+				);
 				INFOPLIST_FILE = "Air Pollution/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RayWan.Air-Pollution";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.03;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rwan.MonAir;
+				PRODUCT_NAME = MonAir;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

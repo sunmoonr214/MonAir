@@ -1,0 +1,33 @@
+PODS:
+  - GoogleMaps (3.9.0):
+    - GoogleMaps/Maps (= 3.9.0)
+  - GoogleMaps/Base (3.9.0)
+  - GoogleMaps/Maps (3.9.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.9.0):
+    - GoogleMaps/Base (= 3.9.0)
+  - GooglePlacesSearchController (0.2.3)
+  - IQKeyboardManagerSwift (6.5.5)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - GooglePlaces
+  - GooglePlacesSearchController
+  - IQKeyboardManagerSwift
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+    - GooglePlaces
+    - GooglePlacesSearchController
+    - IQKeyboardManagerSwift
+
+SPEC CHECKSUMS:
+  GoogleMaps: 4b5346bddfe6911bb89155d43c903020170523ac
+  GooglePlaces: 1634d019549b969d40fe0ccb0b9513055adebe01
+  GooglePlacesSearchController: f8c7da8c3bf0bcf901c5873c22fda7db5fbfc15e
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+
+PODFILE CHECKSUM: 7b0926feacf52f59de573ce7cedbb35b10847a8b
+
+COCOAPODS: 1.9.3
